@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import "./css/variables.css";
+@import "./css/base.css";
+@import "./css/forms.css";
+@import "./components/Profile/profile.css";
+@import "./components/SignIn/signin.css";
+@import "./components/SignUp/signup.css";
+@import "./components/Home/home.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100vh;
+}
+
+body,
+button,
+input {
+    font-family: "Rubik", sans-serif;
+    color: var(--color-text);
+}
+
+button {
+    background-color: var(--color-primary);
+    color: #ffffff;
+}
+
+#root {
+    height: 100%;
+}

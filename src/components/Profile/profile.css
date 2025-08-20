@@ -1,0 +1,103 @@
+.content-profile {
+    padding: 0;
+    height: 100%;
+}
+
+.profile-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing-md);
+    padding-bottom: 0;
+}
+
+.banner {
+    width: 100%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000007;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: var(--spacing-md);
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+.profile-details {
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.75rem;
+}
+
+.pfp-group {
+    position: relative;
+}
+
+#pfp {
+    width: 76px;
+    height: 76px;
+    object-fit: cover;
+    border-radius: var(--radius-full);
+    border: 2px solid var(--color-bg);
+}
+
+.upload-btn-wrapper {
+    cursor: pointer;
+    position: absolute;
+    background-color: var(--color-primary);
+    border-radius: var(--radius-full);
+    width: 25px;
+    height: 25px;
+    bottom: 10%;
+    right: -8%;
+    padding: var(--spacing-sm);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#upload-btn {
+    width: 15px;
+    height: 15px;
+    border-radius: 0;
+    background: none;
+    padding: 0;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.profile-name {
+    font-size: var(--font-md);
+    margin: 0;
+}
+
+.profile-email {
+    font-size: var(--font-sm);
+    color: var(--color-text-light);
+    margin: 0;
+}
+
+.shorter-description {
+    margin-top: var(--spacing-lg);
+    font-size: var(--font-sm);
+    line-height: 1.375rem;
+    text-transform: capitalize;
+    color: var(--color-text);
+}
+
+.empty-space {
+    border-top: 1px dashed var(--color-bg);
+    border-bottom: 1px dashed var(--color-bg);
+    height: 100%;
+    margin: var(--spacing-lg) 0;
+}

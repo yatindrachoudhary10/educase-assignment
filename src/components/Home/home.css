@@ -1,0 +1,24 @@
+.home-content {
+    margin-bottom: 1.25rem;
+    bottom: 0;
+    left: 0;
+}
+
+.text-container {
+    width: 75%;
+}
+
+.button-container {
+    margin-top: var(--spacing-lg);
+    gap: var(--spacing-sm);
+}
+
+.button-container> :nth-child(2) {
+    background-color: var(--color-secondary);
+    color: #000000;
+    transition: background-color 0.2s ease;
+}
+
+.button-container> :nth-child(2):hover {
+    background-color: var(--color-secondary-hover);
+}

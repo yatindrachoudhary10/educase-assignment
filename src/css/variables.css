@@ -1,0 +1,30 @@
+:root {
+  --color-primary: #6c25ff;
+  --color-primary-hover: #642af5;
+  --color-secondary: #cebafb;
+  --color-secondary-hover: #b897f2;
+
+  --color-bg: #cbcbcb;
+  --color-bg-light: #f7f8f9;
+
+  --color-required: #dd4a3d;
+
+  --color-text: #1d2226;
+  --color-text-light: #74777b;
+
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-smd: 0.8rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+
+  --font-xs: 0.8125rem;
+  --font-sm: 0.875rem;
+  --font-md: 0.9375rem;
+  --font-lg: 1.12rem;
+  --font-xl: 1.75rem;
+
+  --radius-sm: 0.3rem;
+  --radius-full: 50%;
+}
